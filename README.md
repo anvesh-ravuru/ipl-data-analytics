@@ -1,2 +1,2 @@
-# ipl-data-analytics
-Analyses IPL cricket data (till 2017) using PySpark in Databricks. Implements an ELT pipeline: loads CSVs to S3, ingests with PySpark, performs transformations, saves results as Parquet in S3, and creates visualizations with matplotlib.
+In this project, I combined my passion for cricket with big data engineering to analyze IPL match data (2008-2017). My goal was to leverage the power of PySpark to process granular, ball by ball data for every match.
+I built a complete, end to end pipeline entirely on Databricks Community Edition (Free Tier). This workflow loads raw CSVs into AWS S3, ingests and transforms the data using PySpark, performs deep analysis via Spark SQL, and generates insights using Matplotlib. This project demonstrates how to handle large scale sports data effectively using zero cost cloud infrastructure.
